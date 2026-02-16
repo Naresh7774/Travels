@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naresh Travels - Contact</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <div class="nav-brand">Naresh Travels</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="famous-places.html">Famous Places</a></li>
+        <li><a href="travel-details.html">Travel Details</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="hotels.html">Hotels</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-auth">
+        <a href="#" class="btn-outline">Sign In</a>
+        <a href="#" class="btn-filled">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Contact & Enquiry</h2>
+      <p class="section-intro">
+        Send your travel requirements and our team will help you design the best itinerary
+        for your budget and travel dates.
+      </p>
+
+      <form>
+        <label for="name">Full Name</label>
+        <input id="name" type="text" name="name" placeholder="Your name" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" required>
+
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" name="phone" placeholder="+91‑XXXXXXXXXX">
+
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+          <option value="">Select subject</option>
+          <option>Package Booking</option>
+          <option>Hotel Reservation</option>
+          <option>Custom Itinerary</option>
+          <option>General Enquiry</option>
+        </select>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5"
+                  placeholder="Tell us your dates, places you want to visit, and budget."
+                  required></textarea>
+
+        <button type="submit"><i class="fas fa-paper-plane"></i> Send Enquiry</button>
+      </form>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.001509947927!2d78.039953!3d27.175144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974710a5b3f3d8b%3A0x8e8e6f4f4e4e4e4e!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1707450000001"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2026 Naresh Travels &middot; Phagwara, Punjab, India<br>
+      <span class="social">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-whatsapp"></i>
+      </span><br>
+      <a href="index.html">Back to Home</a>
+    </p>
+  </footer>
+
+</body>
+</html>

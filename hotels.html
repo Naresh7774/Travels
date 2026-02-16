@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh Travels - Hotels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-brand">Naresh Travels</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="famous-places.html">Famous Places</a></li>
+                <li><a href="travel-details.html">Travel Details</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-auth">
+                <a href="#" class="btn-outline">Sign In</a>
+                <a href="#" class="btn-filled">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Recommended Hotels</h2>
+            <p class="section-intro">
+                Stay at carefully chosen properties that offer comfort, safety and easy access
+                to major sightseeing spots in each destination.
+            </p>
+
+            <div class="grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=900"
+                        alt="Luxury hotel on a lake at sunset" loading="lazy">
+                    <h3>Taj Lake Palace, Udaipur</h3>
+                    <p>★★★★★ | From ₹25,000 per night | Iconic palace hotel on Lake Pichola.</p>
+                    <i class="fas fa-star icon-large" style="color: gold;"></i>
+                </div>
+                <div class="card">
+                    <img src="https://images.trvl-media.com/lodging/1000000/560000/551400/551355/e3371e9e.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+                        alt="Luxury hotel with monument view" loading="lazy">
+                    <h3>Oberoi Amarvilas, Agra</h3>
+                    <p>★★★★★ | From ₹30,000 per night | Premium stay with Taj Mahal views.</p>
+                    <i class="fas fa-star icon-large" style="color: gold;"></i>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.itchotels.com/content/dam/itchotels/in/umbrella/itc/hotels/itcgrandchola-chennai/images/overview/overview-desktop/exterior-dusk.png"
+                        alt="Grand hotel lobby interior" loading="lazy">
+                    <h3>ITC Grand Chola, Chennai</h3>
+                    <p>★★★★★ | From ₹18,000 per night | Inspired by South Indian architecture.</p>
+                    <i class="fas fa-star icon-large" style="color: gold;"></i>
+                </div>
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNvUQbv_qOa94ps8rFnjL9S0bm6dLuQMYBmd8OQ=s1360-w1360-h1020-rw"
+                        alt="City hotel with pool and garden" loading="lazy">
+                    <h3>The Leela Palace, Bengaluru</h3>
+                    <p>★★★★★ | From ₹22,000 per night | Luxury stay in India’s tech capital.</p>
+                    <i class="fas fa-star icon-large" style="color: gold;"></i>
+                </div>
+            </div>
+
+            <form>
+                <label for="checkin">Check‑in Date</label>
+                <input type="date" id="checkin" required>
+
+                <label for="nights">Number of Nights</label>
+                <input type="number" id="nights" min="1" placeholder="e.g. 3" required>
+
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="Udaipur, Agra, Jaipur..." required>
+
+                <button type="submit"><i class="fas fa-bed"></i> Search Hotels</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Naresh Travels &middot; Phagwara, Punjab, India<br>
+            <span class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+            </span><br>
+            <a href="index.html">Back to Home</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
